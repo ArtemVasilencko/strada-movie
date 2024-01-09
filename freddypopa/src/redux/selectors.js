@@ -1,0 +1,14 @@
+export const selectToken = (state) => state.user.token;
+export const selectAccountId = (state) => state.user.accountId;
+export const selectMovieURL = (state) => state.movieURL;
+export const selectActivePage = (state) => state.moviesSort.activePage;
+export const selectSelectValue = (state) => state.moviesSort.selectValue;
+export const selectTotalPages = (state) => state.moviesSort.totalPages;
+export const selectActiveMovieId = (state) => state.activeMovieId;
+export const selectMovieList = (state) => state.movieList.movieList;
+export const selectIsFetching = (state) => state.movieList.isFetching;
+export const selectGenresList = (state) => state.genres.genresList;
+export const selectActiveGenres = (state) => state.genres.activeGenresList;
+export const selectActiveGenresIds = (state) => state.genres.activeGenresIds;
+export const selectStartDate = (state) => state.rangeSlider.startDate;
+export const selectEndDate = (state) => state.rangeSlider.endDate;

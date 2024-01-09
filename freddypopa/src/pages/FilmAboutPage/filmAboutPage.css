@@ -1,0 +1,42 @@
+.movie__about-page {
+  display: flex;
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+
+.movie__poster {
+  min-width: 300px;
+  margin-right: 40px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.movie__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.movie__title h2 {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.actors__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 750px;
+}
+.movie__details-container {
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.movie__actors {
+  padding: 15px;
+  border-radius: 15px;
+  width: 250px;
+  color: #ffffff;
+}
